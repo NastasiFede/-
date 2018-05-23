@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/fragment_container"
+    android:orientation="vertical"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent">
+    <fragment
+        class="createafragment.MyFragment"
+        android:layout_width="match_parent"
+        android:layout_height="64.5dp"
+        android:id="@+id/my_fragment" />
+    <fragment
+        class="createafragment.MyFragment1"
+        android:layout_width="match_parent"
+        android:layout_height="64.5dp"
+        android:id="@+id/my_fragment1" />
+    <fragment
+        class="createafragment.MyFragment2"
+        android:layout_width="match_parent"
+        android:layout_height="64.5dp"
+        android:id="@+id/my_fragment2" />
+    <fragment
+        android:name="createafragment.MyFragment3"
+        android:layout_width="match_parent"
+        android:layout_height="45.5dp"
+        android:id="@+id/my_fragment3"
+        android:layout_marginBottom="3.0dp" />
+    <fragment
+        android:name="createafragment.MyFragment4"
+        android:layout_width="match_parent"
+        android:layout_height="151.5dp"
+        android:id="@+id/my_fragment4" />
+    <ListView
+        android:minWidth="25px"
+        android:minHeight="25px"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:id="@+id/listView1"
+        android:layout_marginTop="0.0dp" />
+</LinearLayout>
